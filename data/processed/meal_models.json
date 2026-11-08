@@ -1,0 +1,570 @@
+{
+  "basis": {
+    "source_id": "NIN_MY_PLATE_2024",
+    "name": "ICMR-National Institute of Nutrition, Policy Brief 'My Plate for the Day' (2024)",
+    "url": "https://www.nin.res.in/brief/Policy%20Brief%20My%20Plate%20J18%2024.pdf",
+    "local_path": "data/raw/food/NIN_Policy_Brief_My_Plate_2024.pdf"
+  },
+  "daily_plate_g": {
+    "cereals": 250,
+    "pulses": 85,
+    "milk_curd": 300,
+    "vegetables": 400,
+    "fruits": 100,
+    "nuts_seeds": 35,
+    "fats_oils": 27
+  },
+  "protein_portion_g": 100,
+  "models": [
+    {
+      "meal_type": "vegetarian",
+      "components": [
+        {
+          "factor_key": "food.rice",
+          "grams": 41.67,
+          "factor": 4.45,
+          "kg_co2e": 0.18542
+        },
+        {
+          "factor_key": "food.wheat",
+          "grams": 41.67,
+          "factor": 1.57,
+          "kg_co2e": 0.06542
+        },
+        {
+          "factor_key": "food.pulses",
+          "grams": 28.33,
+          "factor": 1.79,
+          "kg_co2e": 0.05072
+        },
+        {
+          "factor_key": "food.milk",
+          "grams": 100.0,
+          "factor": 3.15,
+          "kg_co2e": 0.315
+        },
+        {
+          "factor_key": "food.vegetables",
+          "grams": 133.33,
+          "factor": 0.53,
+          "kg_co2e": 0.07067
+        },
+        {
+          "factor_key": "food.fruit",
+          "grams": 33.33,
+          "factor": 1.05,
+          "kg_co2e": 0.035
+        },
+        {
+          "factor_key": "food.nuts",
+          "grams": 11.67,
+          "factor": 0.43,
+          "kg_co2e": 0.00502
+        },
+        {
+          "factor_key": "food.oil_palm",
+          "grams": 4.5,
+          "factor": 7.31677059,
+          "kg_co2e": 0.03293
+        },
+        {
+          "factor_key": "food.oil_soybean",
+          "grams": 4.5,
+          "factor": 6.3244715,
+          "kg_co2e": 0.02846
+        }
+      ],
+      "kg_co2e_per_meal": 0.7886,
+      "notes": "One-third of NIN 2000 kcal daily plate (raw weights). Cereals split 50/50 rice/wheat; oils 50/50 palm/soybean."
+    },
+    {
+      "meal_type": "vegan",
+      "components": [
+        {
+          "factor_key": "food.rice",
+          "grams": 41.67,
+          "factor": 4.45,
+          "kg_co2e": 0.18542
+        },
+        {
+          "factor_key": "food.wheat",
+          "grams": 41.67,
+          "factor": 1.57,
+          "kg_co2e": 0.06542
+        },
+        {
+          "factor_key": "food.pulses",
+          "grams": 28.33,
+          "factor": 1.79,
+          "kg_co2e": 0.05072
+        },
+        {
+          "factor_key": "food.vegetables",
+          "grams": 133.33,
+          "factor": 0.53,
+          "kg_co2e": 0.07067
+        },
+        {
+          "factor_key": "food.fruit",
+          "grams": 33.33,
+          "factor": 1.05,
+          "kg_co2e": 0.035
+        },
+        {
+          "factor_key": "food.nuts",
+          "grams": 11.67,
+          "factor": 0.43,
+          "kg_co2e": 0.00502
+        },
+        {
+          "factor_key": "food.oil_palm",
+          "grams": 4.5,
+          "factor": 7.31677059,
+          "kg_co2e": 0.03293
+        },
+        {
+          "factor_key": "food.oil_soybean",
+          "grams": 4.5,
+          "factor": 6.3244715,
+          "kg_co2e": 0.02846
+        },
+        {
+          "factor_key": "food.soy_milk",
+          "grams": 100.0,
+          "factor": 0.98,
+          "kg_co2e": 0.098
+        }
+      ],
+      "kg_co2e_per_meal": 0.5716,
+      "notes": "Vegetarian model with dairy replaced 1:1 by soy milk."
+    },
+    {
+      "meal_type": "non_vegetarian_chicken",
+      "components": [
+        {
+          "factor_key": "food.rice",
+          "grams": 41.67,
+          "factor": 4.45,
+          "kg_co2e": 0.18542
+        },
+        {
+          "factor_key": "food.wheat",
+          "grams": 41.67,
+          "factor": 1.57,
+          "kg_co2e": 0.06542
+        },
+        {
+          "factor_key": "food.milk",
+          "grams": 100.0,
+          "factor": 3.15,
+          "kg_co2e": 0.315
+        },
+        {
+          "factor_key": "food.vegetables",
+          "grams": 133.33,
+          "factor": 0.53,
+          "kg_co2e": 0.07067
+        },
+        {
+          "factor_key": "food.fruit",
+          "grams": 33.33,
+          "factor": 1.05,
+          "kg_co2e": 0.035
+        },
+        {
+          "factor_key": "food.nuts",
+          "grams": 11.67,
+          "factor": 0.43,
+          "kg_co2e": 0.00502
+        },
+        {
+          "factor_key": "food.oil_palm",
+          "grams": 4.5,
+          "factor": 7.31677059,
+          "kg_co2e": 0.03293
+        },
+        {
+          "factor_key": "food.oil_soybean",
+          "grams": 4.5,
+          "factor": 6.3244715,
+          "kg_co2e": 0.02846
+        },
+        {
+          "factor_key": "food.chicken",
+          "grams": 100,
+          "factor": 9.87,
+          "kg_co2e": 0.987
+        }
+      ],
+      "kg_co2e_per_meal": 1.7249,
+      "notes": "Vegetarian model with the pulse portion replaced by 100 g raw chicken / poultry (NIN: eggs/fish/meat can substitute a portion of pulses). Portion size is a MODELLING ASSUMPTION."
+    },
+    {
+      "meal_type": "non_vegetarian_fish",
+      "components": [
+        {
+          "factor_key": "food.rice",
+          "grams": 41.67,
+          "factor": 4.45,
+          "kg_co2e": 0.18542
+        },
+        {
+          "factor_key": "food.wheat",
+          "grams": 41.67,
+          "factor": 1.57,
+          "kg_co2e": 0.06542
+        },
+        {
+          "factor_key": "food.milk",
+          "grams": 100.0,
+          "factor": 3.15,
+          "kg_co2e": 0.315
+        },
+        {
+          "factor_key": "food.vegetables",
+          "grams": 133.33,
+          "factor": 0.53,
+          "kg_co2e": 0.07067
+        },
+        {
+          "factor_key": "food.fruit",
+          "grams": 33.33,
+          "factor": 1.05,
+          "kg_co2e": 0.035
+        },
+        {
+          "factor_key": "food.nuts",
+          "grams": 11.67,
+          "factor": 0.43,
+          "kg_co2e": 0.00502
+        },
+        {
+          "factor_key": "food.oil_palm",
+          "grams": 4.5,
+          "factor": 7.31677059,
+          "kg_co2e": 0.03293
+        },
+        {
+          "factor_key": "food.oil_soybean",
+          "grams": 4.5,
+          "factor": 6.3244715,
+          "kg_co2e": 0.02846
+        },
+        {
+          "factor_key": "food.fish_farmed",
+          "grams": 100,
+          "factor": 13.63,
+          "kg_co2e": 1.363
+        }
+      ],
+      "kg_co2e_per_meal": 2.1009,
+      "notes": "Vegetarian model with the pulse portion replaced by 100 g raw fish (farmed) (NIN: eggs/fish/meat can substitute a portion of pulses). Portion size is a MODELLING ASSUMPTION."
+    },
+    {
+      "meal_type": "non_vegetarian_mutton",
+      "components": [
+        {
+          "factor_key": "food.rice",
+          "grams": 41.67,
+          "factor": 4.45,
+          "kg_co2e": 0.18542
+        },
+        {
+          "factor_key": "food.wheat",
+          "grams": 41.67,
+          "factor": 1.57,
+          "kg_co2e": 0.06542
+        },
+        {
+          "factor_key": "food.milk",
+          "grams": 100.0,
+          "factor": 3.15,
+          "kg_co2e": 0.315
+        },
+        {
+          "factor_key": "food.vegetables",
+          "grams": 133.33,
+          "factor": 0.53,
+          "kg_co2e": 0.07067
+        },
+        {
+          "factor_key": "food.fruit",
+          "grams": 33.33,
+          "factor": 1.05,
+          "kg_co2e": 0.035
+        },
+        {
+          "factor_key": "food.nuts",
+          "grams": 11.67,
+          "factor": 0.43,
+          "kg_co2e": 0.00502
+        },
+        {
+          "factor_key": "food.oil_palm",
+          "grams": 4.5,
+          "factor": 7.31677059,
+          "kg_co2e": 0.03293
+        },
+        {
+          "factor_key": "food.oil_soybean",
+          "grams": 4.5,
+          "factor": 6.3244715,
+          "kg_co2e": 0.02846
+        },
+        {
+          "factor_key": "food.mutton",
+          "grams": 100,
+          "factor": 39.72,
+          "kg_co2e": 3.972
+        }
+      ],
+      "kg_co2e_per_meal": 4.7099,
+      "notes": "Vegetarian model with the pulse portion replaced by 100 g raw lamb & mutton (NIN: eggs/fish/meat can substitute a portion of pulses). Portion size is a MODELLING ASSUMPTION."
+    },
+    {
+      "meal_type": "non_vegetarian_beef",
+      "components": [
+        {
+          "factor_key": "food.rice",
+          "grams": 41.67,
+          "factor": 4.45,
+          "kg_co2e": 0.18542
+        },
+        {
+          "factor_key": "food.wheat",
+          "grams": 41.67,
+          "factor": 1.57,
+          "kg_co2e": 0.06542
+        },
+        {
+          "factor_key": "food.milk",
+          "grams": 100.0,
+          "factor": 3.15,
+          "kg_co2e": 0.315
+        },
+        {
+          "factor_key": "food.vegetables",
+          "grams": 133.33,
+          "factor": 0.53,
+          "kg_co2e": 0.07067
+        },
+        {
+          "factor_key": "food.fruit",
+          "grams": 33.33,
+          "factor": 1.05,
+          "kg_co2e": 0.035
+        },
+        {
+          "factor_key": "food.nuts",
+          "grams": 11.67,
+          "factor": 0.43,
+          "kg_co2e": 0.00502
+        },
+        {
+          "factor_key": "food.oil_palm",
+          "grams": 4.5,
+          "factor": 7.31677059,
+          "kg_co2e": 0.03293
+        },
+        {
+          "factor_key": "food.oil_soybean",
+          "grams": 4.5,
+          "factor": 6.3244715,
+          "kg_co2e": 0.02846
+        },
+        {
+          "factor_key": "food.beef",
+          "grams": 100,
+          "factor": 99.48,
+          "kg_co2e": 9.948
+        }
+      ],
+      "kg_co2e_per_meal": 10.6859,
+      "notes": "Vegetarian model with the pulse portion replaced by 100 g raw beef (beef herd) (NIN: eggs/fish/meat can substitute a portion of pulses). Portion size is a MODELLING ASSUMPTION."
+    },
+    {
+      "meal_type": "non_vegetarian_pork",
+      "components": [
+        {
+          "factor_key": "food.rice",
+          "grams": 41.67,
+          "factor": 4.45,
+          "kg_co2e": 0.18542
+        },
+        {
+          "factor_key": "food.wheat",
+          "grams": 41.67,
+          "factor": 1.57,
+          "kg_co2e": 0.06542
+        },
+        {
+          "factor_key": "food.milk",
+          "grams": 100.0,
+          "factor": 3.15,
+          "kg_co2e": 0.315
+        },
+        {
+          "factor_key": "food.vegetables",
+          "grams": 133.33,
+          "factor": 0.53,
+          "kg_co2e": 0.07067
+        },
+        {
+          "factor_key": "food.fruit",
+          "grams": 33.33,
+          "factor": 1.05,
+          "kg_co2e": 0.035
+        },
+        {
+          "factor_key": "food.nuts",
+          "grams": 11.67,
+          "factor": 0.43,
+          "kg_co2e": 0.00502
+        },
+        {
+          "factor_key": "food.oil_palm",
+          "grams": 4.5,
+          "factor": 7.31677059,
+          "kg_co2e": 0.03293
+        },
+        {
+          "factor_key": "food.oil_soybean",
+          "grams": 4.5,
+          "factor": 6.3244715,
+          "kg_co2e": 0.02846
+        },
+        {
+          "factor_key": "food.pork",
+          "grams": 100,
+          "factor": 12.31,
+          "kg_co2e": 1.231
+        }
+      ],
+      "kg_co2e_per_meal": 1.9689,
+      "notes": "Vegetarian model with the pulse portion replaced by 100 g raw pork (NIN: eggs/fish/meat can substitute a portion of pulses). Portion size is a MODELLING ASSUMPTION."
+    },
+    {
+      "meal_type": "non_vegetarian_egg",
+      "components": [
+        {
+          "factor_key": "food.rice",
+          "grams": 41.67,
+          "factor": 4.45,
+          "kg_co2e": 0.18542
+        },
+        {
+          "factor_key": "food.wheat",
+          "grams": 41.67,
+          "factor": 1.57,
+          "kg_co2e": 0.06542
+        },
+        {
+          "factor_key": "food.milk",
+          "grams": 100.0,
+          "factor": 3.15,
+          "kg_co2e": 0.315
+        },
+        {
+          "factor_key": "food.vegetables",
+          "grams": 133.33,
+          "factor": 0.53,
+          "kg_co2e": 0.07067
+        },
+        {
+          "factor_key": "food.fruit",
+          "grams": 33.33,
+          "factor": 1.05,
+          "kg_co2e": 0.035
+        },
+        {
+          "factor_key": "food.nuts",
+          "grams": 11.67,
+          "factor": 0.43,
+          "kg_co2e": 0.00502
+        },
+        {
+          "factor_key": "food.oil_palm",
+          "grams": 4.5,
+          "factor": 7.31677059,
+          "kg_co2e": 0.03293
+        },
+        {
+          "factor_key": "food.oil_soybean",
+          "grams": 4.5,
+          "factor": 6.3244715,
+          "kg_co2e": 0.02846
+        },
+        {
+          "factor_key": "food.eggs",
+          "grams": 100,
+          "factor": 4.67,
+          "kg_co2e": 0.467
+        }
+      ],
+      "kg_co2e_per_meal": 1.2049,
+      "notes": "Vegetarian model with the pulse portion replaced by 100 g raw eggs (NIN: eggs/fish/meat can substitute a portion of pulses). Portion size is a MODELLING ASSUMPTION."
+    },
+    {
+      "meal_type": "snack_refreshment",
+      "components": [
+        {
+          "factor_key": "food.milk",
+          "grams": 100,
+          "factor": 3.15,
+          "kg_co2e": 0.315
+        },
+        {
+          "factor_key": "food.tea",
+          "grams": 2,
+          "factor": 7.1,
+          "kg_co2e": 0.0142
+        },
+        {
+          "factor_key": "food.sugar_cane",
+          "grams": 5,
+          "factor": 3.2,
+          "kg_co2e": 0.016
+        },
+        {
+          "factor_key": "food.wheat",
+          "grams": 30,
+          "factor": 1.57,
+          "kg_co2e": 0.0471
+        }
+      ],
+      "kg_co2e_per_meal": 0.3923,
+      "notes": "Tea with milk (100 ml milk, 2 g tea, 5 g sugar) + 30 g wheat-based snack. MODELLING ASSUMPTION."
+    },
+    {
+      "meal_type": "snack_refreshment_coffee",
+      "components": [
+        {
+          "factor_key": "food.milk",
+          "grams": 100,
+          "factor": 3.15,
+          "kg_co2e": 0.315
+        },
+        {
+          "factor_key": "food.coffee",
+          "grams": 7,
+          "factor": 28.53,
+          "kg_co2e": 0.19971
+        },
+        {
+          "factor_key": "food.sugar_cane",
+          "grams": 5,
+          "factor": 3.2,
+          "kg_co2e": 0.016
+        },
+        {
+          "factor_key": "food.wheat",
+          "grams": 30,
+          "factor": 1.57,
+          "kg_co2e": 0.0471
+        }
+      ],
+      "kg_co2e_per_meal": 0.5778,
+      "notes": "Coffee with milk (7 g coffee, 100 ml milk, 5 g sugar) + 30 g wheat snack. MODELLING ASSUMPTION."
+    }
+  ]
+}

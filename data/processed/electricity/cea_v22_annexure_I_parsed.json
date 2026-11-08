@@ -1,0 +1,93 @@
+{
+  "2013-14": {
+    "total_co2_Mt": 727.4,
+    "net_gen_conventional_BU": 886.77,
+    "re_gen_BU": 53.06,
+    "total_net_gen_BU": 939.83,
+    "weighted_avg_tCO2_per_MWh": 0.774
+  },
+  "2014-15": {
+    "total_co2_Mt": 805.4,
+    "net_gen_conventional_BU": 972.04,
+    "re_gen_BU": 61.72,
+    "total_net_gen_BU": 1033.76,
+    "weighted_avg_tCO2_per_MWh": 0.779
+  },
+  "2015-16": {
+    "total_co2_Mt": 846.3,
+    "net_gen_conventional_BU": 1027.03,
+    "re_gen_BU": 65.78,
+    "total_net_gen_BU": 1092.81,
+    "weighted_avg_tCO2_per_MWh": 0.774
+  },
+  "2016-17": {
+    "total_co2_Mt": 888.34,
+    "net_gen_conventional_BU": 1072.84,
+    "re_gen_BU": 81.55,
+    "total_net_gen_BU": 1154.39,
+    "weighted_avg_tCO2_per_MWh": 0.77
+  },
+  "2017-18": {
+    "total_co2_Mt": 922.18,
+    "net_gen_conventional_BU": 1121.57,
+    "re_gen_BU": 101.84,
+    "total_net_gen_BU": 1223.41,
+    "weighted_avg_tCO2_per_MWh": 0.754
+  },
+  "2018-19": {
+    "total_co2_Mt": 960.9,
+    "net_gen_conventional_BU": 1165.16,
+    "re_gen_BU": 126.76,
+    "total_net_gen_BU": 1291.92,
+    "weighted_avg_tCO2_per_MWh": 0.744
+  },
+  "2019-20": {
+    "total_co2_Mt": 928.14,
+    "net_gen_conventional_BU": 1162.97,
+    "re_gen_BU": 138.34,
+    "total_net_gen_BU": 1301.31,
+    "weighted_avg_tCO2_per_MWh": 0.713
+  },
+  "2020-21": {
+    "total_co2_Mt": 910.02,
+    "net_gen_conventional_BU": 1147.52,
+    "re_gen_BU": 147.25,
+    "total_net_gen_BU": 1294.77,
+    "weighted_avg_tCO2_per_MWh": 0.703
+  },
+  "2021-22": {
+    "total_co2_Mt": 1002.01,
+    "net_gen_conventional_BU": 1230.09,
+    "re_gen_BU": 170.91,
+    "total_net_gen_BU": 1401.01,
+    "weighted_avg_tCO2_per_MWh": 0.715
+  },
+  "2022-23": {
+    "total_co2_Mt": 1108.11,
+    "net_gen_conventional_BU": 1320.18,
+    "re_gen_BU": 203.55,
+    "total_net_gen_BU": 1547.8,
+    "weighted_avg_tCO2_per_MWh": 0.716
+  },
+  "2023-24": {
+    "total_co2_Mt": 1203.36,
+    "net_gen_conventional_BU": 1408.45,
+    "re_gen_BU": 225.83,
+    "total_net_gen_BU": 1654.54,
+    "weighted_avg_tCO2_per_MWh": 0.727
+  },
+  "2024-25": {
+    "total_co2_Mt": 1235.96,
+    "net_gen_conventional_BU": 1461.85,
+    "re_gen_BU": 255.01,
+    "total_net_gen_BU": 1740.54,
+    "weighted_avg_tCO2_per_MWh": 0.71
+  },
+  "2025-26": {
+    "total_co2_Mt": 1189.29,
+    "net_gen_conventional_BU": 1424.19,
+    "re_gen_BU": 310.58,
+    "total_net_gen_BU": 1761.28,
+    "weighted_avg_tCO2_per_MWh": 0.675
+  }
+}

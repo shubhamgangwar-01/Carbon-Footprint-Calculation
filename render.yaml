@@ -1,0 +1,24 @@
+# Render Blueprint: backend API + managed PostgreSQL (frontend goes to Vercel)
+databases:
+  - name: conference-carbon-db
+    plan: free
+services:
+  - type: web
+    name: conference-carbon-api
+    runtime: docker
+    dockerfilePath: backend/Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase: { name: conference-carbon-db, property: connectionString }
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ADMIN_EMAIL
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: CORS_ORIGINS
+        sync: false
+      - key: AUTO_MIGRATE
+        value: "true"

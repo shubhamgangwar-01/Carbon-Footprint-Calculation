@@ -1,0 +1,3786 @@
+{
+  "method": "Pedigree-style 1-5 scores (geographical, temporal, technological, reliability); label high<=1.75<medium<=2.75<low",
+  "summary_active_factors": {
+    "transportation": {
+      "high": 70,
+      "medium": 23,
+      "low": 0
+    },
+    "parameter": {
+      "high": 4,
+      "medium": 0,
+      "low": 0
+    },
+    "energy": {
+      "high": 18,
+      "medium": 0,
+      "low": 0
+    },
+    "accommodation": {
+      "high": 0,
+      "medium": 39,
+      "low": 0
+    },
+    "materials": {
+      "high": 0,
+      "medium": 16,
+      "low": 0
+    },
+    "waste": {
+      "high": 0,
+      "medium": 31,
+      "low": 0
+    },
+    "food": {
+      "high": 1,
+      "medium": 55,
+      "low": 0
+    }
+  },
+  "factors": {
+    "transport.flight.domestic_uk.average.with_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.domestic_uk.average.without_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.short_haul_uk.average.with_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.short_haul_uk.average.without_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.short_haul_uk.economy.with_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.short_haul_uk.economy.without_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.short_haul_uk.business.with_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.short_haul_uk.business.without_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.long_haul_uk.average.with_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.long_haul_uk.average.without_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.long_haul_uk.economy.with_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.long_haul_uk.economy.without_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.long_haul_uk.premium_economy.with_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.long_haul_uk.premium_economy.without_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.long_haul_uk.business.with_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.long_haul_uk.business.without_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.long_haul_uk.first.with_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.long_haul_uk.first.without_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.international_non_uk.average.with_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.international_non_uk.average.without_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.international_non_uk.economy.with_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.international_non_uk.economy.without_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.international_non_uk.premium_economy.with_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.international_non_uk.premium_economy.without_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.international_non_uk.business.with_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.international_non_uk.business.without_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.international_non_uk.first.with_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.international_non_uk.first.without_rf@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.rail.national.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official UK dataset used as international proxy outside the UK."
+    },
+    "transport.rail.international@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official UK dataset used as international proxy outside the UK."
+    },
+    "transport.rail.light_rail_tram@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official UK dataset used as international proxy outside the UK."
+    },
+    "transport.rail.underground@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official UK dataset used as international proxy outside the UK."
+    },
+    "transport.bus.local_average.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official UK dataset used as international proxy outside the UK."
+    },
+    "transport.bus.coach.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official UK dataset used as international proxy outside the UK."
+    },
+    "transport.taxi.regular.uk.pkm@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official UK dataset used as international proxy outside the UK."
+    },
+    "transport.taxi.regular.uk.vkm@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Official UK dataset used as international proxy outside the UK."
+    },
+    "transport.motorbike.small.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.motorbike.medium.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.motorbike.large.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.motorbike.average.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.small.diesel.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.small.petrol.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.small.hybrid.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.small.unknown.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.small.phev.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.small.bev.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.medium.diesel.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.medium.petrol.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.medium.hybrid.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.medium.cng.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.medium.lpg.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.medium.unknown.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.medium.phev.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.medium.bev.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.large.diesel.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.large.petrol.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.large.hybrid.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.large.cng.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.large.lpg.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.large.unknown.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.large.phev.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.large.bev.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.average.diesel.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.average.petrol.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.average.hybrid.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.average.cng.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.average.lpg.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.average.unknown.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.average.phev.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.average.bev.uk@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "param.ev_kwh_per_km.small@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK EV fleet energy use, used as proxy."
+    },
+    "param.ev_kwh_per_km.medium@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK EV fleet energy use, used as proxy."
+    },
+    "param.ev_kwh_per_km.large@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK EV fleet energy use, used as proxy."
+    },
+    "param.ev_kwh_per_km.average@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "UK EV fleet energy use, used as proxy."
+    },
+    "energy.fuel.diesel.litre@DESNZ-2026-v1.2": {
+      "geographical": 2,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.5,
+      "label": "high",
+      "note": "Fuel-chemistry based factors transfer well between countries."
+    },
+    "energy.fuel.petrol.litre@DESNZ-2026-v1.2": {
+      "geographical": 2,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.5,
+      "label": "high",
+      "note": "Fuel-chemistry based factors transfer well between countries."
+    },
+    "energy.fuel.lpg.litre@DESNZ-2026-v1.2": {
+      "geographical": 2,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.5,
+      "label": "high",
+      "note": "Fuel-chemistry based factors transfer well between countries."
+    },
+    "energy.fuel.lpg.tonne@DESNZ-2026-v1.2": {
+      "geographical": 2,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.5,
+      "label": "high",
+      "note": "Fuel-chemistry based factors transfer well between countries."
+    },
+    "energy.fuel.natural_gas.m3@DESNZ-2026-v1.2": {
+      "geographical": 2,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.5,
+      "label": "high",
+      "note": "Fuel-chemistry based factors transfer well between countries."
+    },
+    "energy.fuel.natural_gas.kwh@DESNZ-2026-v1.2": {
+      "geographical": 2,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.5,
+      "label": "high",
+      "note": "Fuel-chemistry based factors transfer well between countries."
+    },
+    "electricity.grid.GB@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 1,
+      "technological": 1,
+      "reliability": 1,
+      "score": 1.0,
+      "label": "high",
+      "note": "Official national grid factor."
+    },
+    "accommodation.hotel.uk@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.uk_london@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.australia@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.belgium@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.brazil@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.canada@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.chile@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.china@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.colombia@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.costa_rica@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.egypt@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.france@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.germany@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.hong_kong_china@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.india@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.indonesia@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.italy@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.japan@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.jordan@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.korea@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.malaysia@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.maldives@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.mexico@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.netherlands@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.oman@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.philippines@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.portugal@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.qatar@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.russian_federation@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.saudi_arabia@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.singapore@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.south_africa@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.spain@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.switzerland@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.thailand@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.turkey@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.united_arab_emirates@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.united_states@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.vietnam@DESNZ-2026-v1.2": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "materials.paper.virgin@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.paper.recycled@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.board.virgin@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.board.recycled@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.plastic.pvc@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.plastic.pvc.recycled@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.plastic.pet@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.plastic.pet.recycled@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.plastic.pp@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.plastic.average@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.plastic.film@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.textile.clothing@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.textile.reused@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.glass@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.metal.aluminium@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.metal.steel@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "waste.food.landfill@DESNZ-2026-v1.2": {
+      "geographical": 4,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK landfill gas capture is higher than typical Indian open dumps/landfills, so Indian landfill emissions are likely UNDER-estimated."
+    },
+    "waste.food.incineration@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.food.composting@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.food.anaerobic_digestion@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.paper.landfill@DESNZ-2026-v1.2": {
+      "geographical": 4,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK landfill gas capture is higher than typical Indian open dumps/landfills, so Indian landfill emissions are likely UNDER-estimated."
+    },
+    "waste.paper.incineration@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.paper.composting@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.paper.recycling@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.cardboard.landfill@DESNZ-2026-v1.2": {
+      "geographical": 4,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK landfill gas capture is higher than typical Indian open dumps/landfills, so Indian landfill emissions are likely UNDER-estimated."
+    },
+    "waste.cardboard.incineration@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.cardboard.composting@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.cardboard.recycling@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.plastic.landfill@DESNZ-2026-v1.2": {
+      "geographical": 4,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK landfill gas capture is higher than typical Indian open dumps/landfills, so Indian landfill emissions are likely UNDER-estimated."
+    },
+    "waste.plastic.incineration@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.plastic.recycling@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.plastic.recycling_open_loop@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.glass.landfill@DESNZ-2026-v1.2": {
+      "geographical": 4,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK landfill gas capture is higher than typical Indian open dumps/landfills, so Indian landfill emissions are likely UNDER-estimated."
+    },
+    "waste.glass.incineration@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.glass.recycling@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.glass.recycling_open_loop@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.metal.landfill@DESNZ-2026-v1.2": {
+      "geographical": 4,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK landfill gas capture is higher than typical Indian open dumps/landfills, so Indian landfill emissions are likely UNDER-estimated."
+    },
+    "waste.metal.incineration@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.metal.recycling@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.metal.recycling_open_loop@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.mixed.landfill@DESNZ-2026-v1.2": {
+      "geographical": 4,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK landfill gas capture is higher than typical Indian open dumps/landfills, so Indian landfill emissions are likely UNDER-estimated."
+    },
+    "waste.mixed.incineration@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.mixed.anaerobic_digestion@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.mixed.recycling@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.textiles.landfill@DESNZ-2026-v1.2": {
+      "geographical": 4,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK landfill gas capture is higher than typical Indian open dumps/landfills, so Indian landfill emissions are likely UNDER-estimated."
+    },
+    "waste.textiles.incineration@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.textiles.recycling@DESNZ-2026-v1.2": {
+      "geographical": 3,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "water.supply@DESNZ-2026-v1.2": {
+      "geographical": 4,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK utilities; proxy only."
+    },
+    "water.treatment@DESNZ-2026-v1.2": {
+      "geographical": 4,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.25,
+      "label": "medium",
+      "note": "UK utilities; proxy only."
+    },
+    "transport.flight.domestic_uk.average.with_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.domestic_uk.average.without_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.short_haul_uk.average.with_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.short_haul_uk.average.without_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.short_haul_uk.economy.with_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.short_haul_uk.economy.without_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.short_haul_uk.business.with_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.short_haul_uk.business.without_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.long_haul_uk.average.with_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.long_haul_uk.average.without_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.long_haul_uk.economy.with_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.long_haul_uk.economy.without_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.long_haul_uk.premium_economy.with_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.long_haul_uk.premium_economy.without_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.long_haul_uk.business.with_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.long_haul_uk.business.without_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.long_haul_uk.first.with_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.long_haul_uk.first.without_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.international_non_uk.average.with_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.international_non_uk.average.without_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.international_non_uk.economy.with_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.international_non_uk.economy.without_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.international_non_uk.premium_economy.with_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.international_non_uk.premium_economy.without_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.international_non_uk.business.with_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.international_non_uk.business.without_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.international_non_uk.first.with_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.flight.international_non_uk.first.without_rf@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official government dataset; route mix is UK-centric, used as international proxy."
+    },
+    "transport.rail.national.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official UK dataset used as international proxy outside the UK."
+    },
+    "transport.rail.international@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official UK dataset used as international proxy outside the UK."
+    },
+    "transport.rail.light_rail_tram@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official UK dataset used as international proxy outside the UK."
+    },
+    "transport.rail.underground@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official UK dataset used as international proxy outside the UK."
+    },
+    "transport.bus.local_average.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official UK dataset used as international proxy outside the UK."
+    },
+    "transport.bus.coach.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official UK dataset used as international proxy outside the UK."
+    },
+    "transport.taxi.regular.uk.pkm@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official UK dataset used as international proxy outside the UK."
+    },
+    "transport.taxi.regular.uk.vkm@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Official UK dataset used as international proxy outside the UK."
+    },
+    "transport.motorbike.small.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.motorbike.medium.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.motorbike.large.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.motorbike.average.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.small.diesel.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.small.petrol.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.small.hybrid.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.small.unknown.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.small.phev.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.small.bev.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.medium.diesel.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.medium.petrol.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.medium.hybrid.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.medium.cng.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.medium.lpg.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.medium.unknown.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.medium.phev.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.medium.bev.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.large.diesel.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.large.petrol.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.large.hybrid.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.large.cng.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.large.lpg.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.large.unknown.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.large.phev.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.large.bev.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.average.diesel.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.average.petrol.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.average.hybrid.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.average.cng.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.average.lpg.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.average.unknown.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.average.phev.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "transport.car.average.bev.uk@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK fleet; proxy elsewhere."
+    },
+    "param.ev_kwh_per_km.small@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK EV fleet energy use, used as proxy."
+    },
+    "param.ev_kwh_per_km.medium@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK EV fleet energy use, used as proxy."
+    },
+    "param.ev_kwh_per_km.large@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK EV fleet energy use, used as proxy."
+    },
+    "param.ev_kwh_per_km.average@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 2.0,
+      "label": "medium",
+      "note": "UK EV fleet energy use, used as proxy."
+    },
+    "energy.fuel.diesel.litre@DESNZ-2025": {
+      "geographical": 2,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Fuel-chemistry based factors transfer well between countries."
+    },
+    "energy.fuel.petrol.litre@DESNZ-2025": {
+      "geographical": 2,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Fuel-chemistry based factors transfer well between countries."
+    },
+    "energy.fuel.lpg.litre@DESNZ-2025": {
+      "geographical": 2,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Fuel-chemistry based factors transfer well between countries."
+    },
+    "energy.fuel.lpg.tonne@DESNZ-2025": {
+      "geographical": 2,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Fuel-chemistry based factors transfer well between countries."
+    },
+    "energy.fuel.natural_gas.m3@DESNZ-2025": {
+      "geographical": 2,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Fuel-chemistry based factors transfer well between countries."
+    },
+    "energy.fuel.natural_gas.kwh@DESNZ-2025": {
+      "geographical": 2,
+      "temporal": 2,
+      "technological": 2,
+      "reliability": 1,
+      "score": 1.75,
+      "label": "high",
+      "note": "Fuel-chemistry based factors transfer well between countries."
+    },
+    "electricity.grid.GB@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 2,
+      "technological": 1,
+      "reliability": 1,
+      "score": 1.25,
+      "label": "high",
+      "note": "Official national grid factor."
+    },
+    "accommodation.hotel.uk@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.uk_london@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.australia@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.belgium@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.brazil@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.canada@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.chile@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.china@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.colombia@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.costa_rica@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.egypt@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.france@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.germany@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.hong_kong_china@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.india@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.indonesia@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.italy@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.japan@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.jordan@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.korea@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.malaysia@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.maldives@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.mexico@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.netherlands@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.oman@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.philippines@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.portugal@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.qatar@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.russian_federation@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.saudi_arabia@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.singapore@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.south_africa@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.spain@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.switzerland@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.thailand@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.turkey@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.united_arab_emirates@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.united_states@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "accommodation.hotel.vietnam@DESNZ-2025": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Country-specific benchmark; hotel class not differentiated; 2021 data."
+    },
+    "materials.paper.virgin@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.paper.recycled@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.board.virgin@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.board.recycled@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.plastic.pvc@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.plastic.pvc.recycled@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.plastic.pet@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.plastic.pet.recycled@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.plastic.pp@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.plastic.average@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.plastic.film@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.textile.clothing@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.textile.reused@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.glass@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.metal.aluminium@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "materials.metal.steel@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK production proxy; product-level processing (printing, sewing) excluded."
+    },
+    "waste.food.landfill@DESNZ-2025": {
+      "geographical": 4,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK landfill gas capture is higher than typical Indian open dumps/landfills, so Indian landfill emissions are likely UNDER-estimated."
+    },
+    "waste.food.composting@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.25,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.food.anaerobic_digestion@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.25,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.paper.landfill@DESNZ-2025": {
+      "geographical": 4,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK landfill gas capture is higher than typical Indian open dumps/landfills, so Indian landfill emissions are likely UNDER-estimated."
+    },
+    "waste.paper.composting@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.25,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.paper.recycling@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.25,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.cardboard.landfill@DESNZ-2025": {
+      "geographical": 4,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK landfill gas capture is higher than typical Indian open dumps/landfills, so Indian landfill emissions are likely UNDER-estimated."
+    },
+    "waste.cardboard.composting@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.25,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.cardboard.recycling@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.25,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.plastic.landfill@DESNZ-2025": {
+      "geographical": 4,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK landfill gas capture is higher than typical Indian open dumps/landfills, so Indian landfill emissions are likely UNDER-estimated."
+    },
+    "waste.plastic.recycling@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.25,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.plastic.recycling_open_loop@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.25,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.glass.landfill@DESNZ-2025": {
+      "geographical": 4,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK landfill gas capture is higher than typical Indian open dumps/landfills, so Indian landfill emissions are likely UNDER-estimated."
+    },
+    "waste.glass.recycling@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.25,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.glass.recycling_open_loop@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.25,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.metal.landfill@DESNZ-2025": {
+      "geographical": 4,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK landfill gas capture is higher than typical Indian open dumps/landfills, so Indian landfill emissions are likely UNDER-estimated."
+    },
+    "waste.metal.recycling@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.25,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.metal.recycling_open_loop@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.25,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "waste.mixed.landfill@DESNZ-2025": {
+      "geographical": 4,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK landfill gas capture is higher than typical Indian open dumps/landfills, so Indian landfill emissions are likely UNDER-estimated."
+    },
+    "waste.textiles.landfill@DESNZ-2025": {
+      "geographical": 4,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK landfill gas capture is higher than typical Indian open dumps/landfills, so Indian landfill emissions are likely UNDER-estimated."
+    },
+    "waste.textiles.recycling@DESNZ-2025": {
+      "geographical": 3,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.25,
+      "label": "medium",
+      "note": "Transport-only factor under cut-off method."
+    },
+    "water.supply@DESNZ-2025": {
+      "geographical": 4,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK utilities; proxy only."
+    },
+    "water.treatment@DESNZ-2025": {
+      "geographical": 4,
+      "temporal": 2,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "UK utilities; proxy only."
+    },
+    "electricity.grid.IN.co2@CEA-v22.0": {
+      "geographical": 1,
+      "temporal": 1,
+      "technological": 1,
+      "reliability": 1,
+      "score": 1.0,
+      "label": "high",
+      "note": "Official Government of India factor, latest year."
+    },
+    "electricity.grid.IN@CEA-v22.0": {
+      "geographical": 1,
+      "temporal": 1,
+      "technological": 1,
+      "reliability": 1,
+      "score": 1.0,
+      "label": "high",
+      "note": "Official CO2 factor; CH4+N2O added via IPCC defaults (+0.45%)."
+    },
+    "electricity.grid.IN.FY2016-17@CEA-v22.0": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 1,
+      "reliability": 1,
+      "score": 1.5,
+      "label": "high",
+      "note": "Historical year - use only to reproduce past-year events."
+    },
+    "electricity.grid.IN.FY2017-18@CEA-v22.0": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 1,
+      "reliability": 1,
+      "score": 1.5,
+      "label": "high",
+      "note": "Historical year - use only to reproduce past-year events."
+    },
+    "electricity.grid.IN.FY2018-19@CEA-v22.0": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 1,
+      "reliability": 1,
+      "score": 1.5,
+      "label": "high",
+      "note": "Historical year - use only to reproduce past-year events."
+    },
+    "electricity.grid.IN.FY2019-20@CEA-v22.0": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 1,
+      "reliability": 1,
+      "score": 1.5,
+      "label": "high",
+      "note": "Historical year - use only to reproduce past-year events."
+    },
+    "electricity.grid.IN.FY2020-21@CEA-v22.0": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 1,
+      "reliability": 1,
+      "score": 1.5,
+      "label": "high",
+      "note": "Historical year - use only to reproduce past-year events."
+    },
+    "electricity.grid.IN.FY2021-22@CEA-v22.0": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 1,
+      "reliability": 1,
+      "score": 1.5,
+      "label": "high",
+      "note": "Historical year - use only to reproduce past-year events."
+    },
+    "electricity.grid.IN.FY2022-23@CEA-v22.0": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 1,
+      "reliability": 1,
+      "score": 1.5,
+      "label": "high",
+      "note": "Historical year - use only to reproduce past-year events."
+    },
+    "electricity.grid.IN.FY2023-24@CEA-v22.0": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 1,
+      "reliability": 1,
+      "score": 1.5,
+      "label": "high",
+      "note": "Historical year - use only to reproduce past-year events."
+    },
+    "electricity.grid.IN.FY2024-25@CEA-v22.0": {
+      "geographical": 1,
+      "temporal": 3,
+      "technological": 1,
+      "reliability": 1,
+      "score": 1.5,
+      "label": "high",
+      "note": "Historical year - use only to reproduce past-year events."
+    },
+    "transport.car.hatchback.petrol.IN@IndiaGHGP-Road-v1.0-2015": {
+      "geographical": 1,
+      "temporal": 4,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "India-specific (WRI/CII/TERI) but 2015 consultation draft; CO2-only converted to CO2e."
+    },
+    "transport.car.hatchback.diesel.IN@IndiaGHGP-Road-v1.0-2015": {
+      "geographical": 1,
+      "temporal": 4,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "India-specific (WRI/CII/TERI) but 2015 consultation draft; CO2-only converted to CO2e."
+    },
+    "transport.car.sedan.petrol.IN@IndiaGHGP-Road-v1.0-2015": {
+      "geographical": 1,
+      "temporal": 4,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "India-specific (WRI/CII/TERI) but 2015 consultation draft; CO2-only converted to CO2e."
+    },
+    "transport.car.sedan.diesel.IN@IndiaGHGP-Road-v1.0-2015": {
+      "geographical": 1,
+      "temporal": 4,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "India-specific (WRI/CII/TERI) but 2015 consultation draft; CO2-only converted to CO2e."
+    },
+    "transport.car.suv.petrol.IN@IndiaGHGP-Road-v1.0-2015": {
+      "geographical": 1,
+      "temporal": 4,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "India-specific (WRI/CII/TERI) but 2015 consultation draft; CO2-only converted to CO2e."
+    },
+    "transport.car.suv.diesel.IN@IndiaGHGP-Road-v1.0-2015": {
+      "geographical": 1,
+      "temporal": 4,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "India-specific (WRI/CII/TERI) but 2015 consultation draft; CO2-only converted to CO2e."
+    },
+    "transport.car.muv.diesel.IN@IndiaGHGP-Road-v1.0-2015": {
+      "geographical": 1,
+      "temporal": 4,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "India-specific (WRI/CII/TERI) but 2015 consultation draft; CO2-only converted to CO2e."
+    },
+    "transport.car.hybrid.petrol.IN@IndiaGHGP-Road-v1.0-2015": {
+      "geographical": 1,
+      "temporal": 4,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "India-specific (WRI/CII/TERI) but 2015 consultation draft; CO2-only converted to CO2e."
+    },
+    "transport.car.small.cng.IN@IndiaGHGP-Road-v1.0-2015": {
+      "geographical": 1,
+      "temporal": 4,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "India-specific (WRI/CII/TERI) but 2015 consultation draft; CO2-only converted to CO2e."
+    },
+    "transport.motorbike.scooter.IN@IndiaGHGP-Road-v1.0-2015": {
+      "geographical": 1,
+      "temporal": 4,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "India-specific (WRI/CII/TERI) but 2015 consultation draft; CO2-only converted to CO2e."
+    },
+    "transport.motorbike.small.IN@IndiaGHGP-Road-v1.0-2015": {
+      "geographical": 1,
+      "temporal": 4,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "India-specific (WRI/CII/TERI) but 2015 consultation draft; CO2-only converted to CO2e."
+    },
+    "transport.motorbike.medium.IN@IndiaGHGP-Road-v1.0-2015": {
+      "geographical": 1,
+      "temporal": 4,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "India-specific (WRI/CII/TERI) but 2015 consultation draft; CO2-only converted to CO2e."
+    },
+    "transport.motorbike.large.IN@IndiaGHGP-Road-v1.0-2015": {
+      "geographical": 1,
+      "temporal": 4,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "India-specific (WRI/CII/TERI) but 2015 consultation draft; CO2-only converted to CO2e."
+    },
+    "transport.autorickshaw.petrol.IN@IndiaGHGP-Road-v1.0-2015": {
+      "geographical": 1,
+      "temporal": 4,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "India-specific (WRI/CII/TERI) but 2015 consultation draft; CO2-only converted to CO2e."
+    },
+    "transport.autorickshaw.diesel.IN@IndiaGHGP-Road-v1.0-2015": {
+      "geographical": 1,
+      "temporal": 4,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "India-specific (WRI/CII/TERI) but 2015 consultation draft; CO2-only converted to CO2e."
+    },
+    "transport.autorickshaw.cng.IN@IndiaGHGP-Road-v1.0-2015": {
+      "geographical": 1,
+      "temporal": 4,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "India-specific (WRI/CII/TERI) but 2015 consultation draft; CO2-only converted to CO2e."
+    },
+    "transport.bus.city.IN@IndiaGHGP-Road-v1.0-2015": {
+      "geographical": 1,
+      "temporal": 4,
+      "technological": 2,
+      "reliability": 2,
+      "score": 2.25,
+      "label": "medium",
+      "note": "India-specific (WRI/CII/TERI) but 2015 consultation draft; CO2-only converted to CO2e."
+    },
+    "transport.rail.national.IN@IndiaGHGP-Rail-v1.0-2015": {
+      "geographical": 1,
+      "temporal": 4,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.5,
+      "label": "medium",
+      "note": "India-specific but FY2014-15 data and pre-2015 grid factor; grid has since decarbonised and electrification increased - likely conservative."
+    },
+    "transport.rail.suburban.IN@IndiaGHGP-Rail-v1.0-2015": {
+      "geographical": 1,
+      "temporal": 4,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.5,
+      "label": "medium",
+      "note": "India-specific but FY2014-15 data and pre-2015 grid factor; grid has since decarbonised and electrification increased - likely conservative."
+    },
+    "transport.car.small.bev.IN@CEA-v22.0+DESNZ-2026": {
+      "geographical": 2,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Indian grid factor is official; vehicle efficiency from UK fleet."
+    },
+    "transport.car.medium.bev.IN@CEA-v22.0+DESNZ-2026": {
+      "geographical": 2,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Indian grid factor is official; vehicle efficiency from UK fleet."
+    },
+    "transport.car.large.bev.IN@CEA-v22.0+DESNZ-2026": {
+      "geographical": 2,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Indian grid factor is official; vehicle efficiency from UK fleet."
+    },
+    "transport.car.average.bev.IN@CEA-v22.0+DESNZ-2026": {
+      "geographical": 2,
+      "temporal": 1,
+      "technological": 3,
+      "reliability": 2,
+      "score": 2.0,
+      "label": "medium",
+      "note": "Indian grid factor is official; vehicle efficiency from UK fleet."
+    },
+    "food.beef@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.beef_dairy_herd@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.mutton@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.pork@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.chicken@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.fish_farmed@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.prawns_farmed@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.eggs@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.milk@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.cheese@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.rice@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.wheat@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.maize@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.barley@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.oats@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.potatoes@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.cassava@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.pulses@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.peas@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.groundnuts@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.nuts@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.tofu@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.soy_milk@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.tomatoes@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.onions@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.root_vegetables@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.brassicas@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.vegetables@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.bananas@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.apples@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.citrus@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.berries@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.fruit@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.sugar_cane@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.sugar_beet@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.coffee@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.chocolate@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.wine@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.oil_palm@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.oil_soybean@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.oil_rapeseed@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.oil_sunflower@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.oil_olive@OWID-Poore2018": {
+      "geographical": 3,
+      "temporal": 3,
+      "technological": 3,
+      "reliability": 1,
+      "score": 2.5,
+      "label": "medium",
+      "note": "Global mean; Indian production systems may differ (e.g. rice methane, dairy)."
+    },
+    "food.tea@Premalatha2024": {
+      "geographical": 1,
+      "temporal": 1,
+      "technological": 2,
+      "reliability": 3,
+      "score": 1.75,
+      "label": "high",
+      "note": "India-specific single-region study; literature value (not a downloadable dataset). Milk and sugar must be entered separately."
+    },
+    "food.meal.vegetarian@MealModel-2026.1": {
+      "geographical": 2,
+      "temporal": 2,
+      "technological": 4,
+      "reliability": 3,
+      "score": 2.75,
+      "label": "medium",
+      "note": "Modelled composition - replace with ingredient-based entry when menu quantities are known."
+    },
+    "food.meal.vegan@MealModel-2026.1": {
+      "geographical": 2,
+      "temporal": 2,
+      "technological": 4,
+      "reliability": 3,
+      "score": 2.75,
+      "label": "medium",
+      "note": "Modelled composition - replace with ingredient-based entry when menu quantities are known."
+    },
+    "food.meal.non_vegetarian_chicken@MealModel-2026.1": {
+      "geographical": 2,
+      "temporal": 2,
+      "technological": 4,
+      "reliability": 3,
+      "score": 2.75,
+      "label": "medium",
+      "note": "Modelled composition - replace with ingredient-based entry when menu quantities are known."
+    },
+    "food.meal.non_vegetarian_fish@MealModel-2026.1": {
+      "geographical": 2,
+      "temporal": 2,
+      "technological": 4,
+      "reliability": 3,
+      "score": 2.75,
+      "label": "medium",
+      "note": "Modelled composition - replace with ingredient-based entry when menu quantities are known."
+    },
+    "food.meal.non_vegetarian_mutton@MealModel-2026.1": {
+      "geographical": 2,
+      "temporal": 2,
+      "technological": 4,
+      "reliability": 3,
+      "score": 2.75,
+      "label": "medium",
+      "note": "Modelled composition - replace with ingredient-based entry when menu quantities are known."
+    },
+    "food.meal.non_vegetarian_beef@MealModel-2026.1": {
+      "geographical": 2,
+      "temporal": 2,
+      "technological": 4,
+      "reliability": 3,
+      "score": 2.75,
+      "label": "medium",
+      "note": "Modelled composition - replace with ingredient-based entry when menu quantities are known."
+    },
+    "food.meal.non_vegetarian_pork@MealModel-2026.1": {
+      "geographical": 2,
+      "temporal": 2,
+      "technological": 4,
+      "reliability": 3,
+      "score": 2.75,
+      "label": "medium",
+      "note": "Modelled composition - replace with ingredient-based entry when menu quantities are known."
+    },
+    "food.meal.non_vegetarian_egg@MealModel-2026.1": {
+      "geographical": 2,
+      "temporal": 2,
+      "technological": 4,
+      "reliability": 3,
+      "score": 2.75,
+      "label": "medium",
+      "note": "Modelled composition - replace with ingredient-based entry when menu quantities are known."
+    },
+    "food.meal.snack_refreshment@MealModel-2026.1": {
+      "geographical": 2,
+      "temporal": 2,
+      "technological": 4,
+      "reliability": 3,
+      "score": 2.75,
+      "label": "medium",
+      "note": "Modelled composition - replace with ingredient-based entry when menu quantities are known."
+    },
+    "food.meal.snack_refreshment_coffee@MealModel-2026.1": {
+      "geographical": 2,
+      "temporal": 2,
+      "technological": 4,
+      "reliability": 3,
+      "score": 2.75,
+      "label": "medium",
+      "note": "Modelled composition - replace with ingredient-based entry when menu quantities are known."
+    }
+  }
+}

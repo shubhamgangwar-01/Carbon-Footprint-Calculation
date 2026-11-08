@@ -1,0 +1,31 @@
+{
+  "title": "Small academic conference - 100 participants (SAMPLE DATA)",
+  "description": "Two-day academic workshop in Bengaluru. Illustrative activity data for testing and demonstration only - not a real event.",
+  "input": {
+    "basic": {"name": "Sample: Regional Climate Science Workshop", "country": "India", "country_code": "IN", "state_city": "Bengaluru, Karnataka",
+              "venue_name": "Sample University Auditorium", "venue_area_m2": 900, "start_date": "2026-12-03", "end_date": "2026-12-04",
+              "attendees": 80, "speakers": 10, "organisers_staff": 6, "volunteers": 4, "conference_type": "academic", "format": "offline"},
+    "settings": {"include_radiative_forcing": true},
+    "transport": [
+      {"id": "s1-fl", "label": "Speakers flying Delhi-Bengaluru", "group": "speakers", "mode": "flight", "origin": "DEL", "destination": "BLR", "distance_km": 1700, "passengers": 10, "trip_type": "return", "flight_class": "economy"},
+      {"id": "s1-tr", "label": "Attendees by train from Chennai", "group": "attendees", "mode": "train", "origin": "Chennai", "destination": "Bengaluru", "distance_km": 350, "passengers": 30, "trip_type": "return", "vehicle_type": "national"},
+      {"id": "s1-bus", "label": "Local attendees by city bus (daily)", "group": "attendees", "mode": "bus", "distance_km": 15, "passengers": 40, "trip_type": "return", "trips": 2, "vehicle_type": "city"},
+      {"id": "s1-car", "label": "Organisers & volunteers car-pooling (daily)", "group": "staff", "mode": "car", "distance_km": 25, "passengers": 10, "occupancy": 2, "trip_type": "return", "trips": 2, "vehicle_type": "hatchback", "fuel_type": "petrol"}
+    ],
+    "accommodation": [{"id": "s1-h", "label": "Guest house for speakers", "country": "India", "rooms": 10, "nights": 2}],
+    "energy": {"grid_electricity_kwh": 1800, "diesel_generator_litres": 40},
+    "food": {"meals": [
+        {"id": "s1-m1", "service": "lunch", "diet": "vegetarian", "count": 150},
+        {"id": "s1-m2", "service": "lunch", "diet": "non_vegetarian_chicken", "count": 50},
+        {"id": "s1-m3", "service": "snack", "diet": "snack_refreshment", "count": 400}],
+      "bottled_water": {"bottles": 200, "volume_litres": 0.5, "bottle_mass_g": 10}},
+    "waste": {"entries": [
+        {"id": "s1-w1", "material": "food", "generated_kg": 40, "composting_kg": 25, "landfill_kg": 15},
+        {"id": "s1-w2", "material": "paper", "generated_kg": 15, "recycling_kg": 10, "landfill_kg": 5},
+        {"id": "s1-w3", "material": "plastic", "generated_kg": 8, "landfill_kg": 8}]},
+    "materials": {"entries": [
+        {"id": "s1-p1", "item": "Printed programmes", "material_key": "materials.paper.virgin", "quantity": 800, "unit": "pages", "paper_gsm": 80, "sheet_size": "A4", "double_sided": true},
+        {"id": "s1-p2", "item": "PVC banners", "material_key": "materials.plastic.pvc", "quantity": 3, "unit": "kg"},
+        {"id": "s1-p3", "item": "Lanyards", "material_key": "materials.plastic.pet", "quantity": 100, "unit": "items", "unit_mass_g": 12}]}
+  }
+}

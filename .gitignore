@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+frontend/dist/
+frontend/e2e/screens/
+backend/generated_reports/
+*.sqlite3
+.DS_Store
+# India GHG Program PDFs are "all rights reserved" - keep locally for audit, do not redistribute
+data/raw/transportation/IndiaGHGP_*.pdf

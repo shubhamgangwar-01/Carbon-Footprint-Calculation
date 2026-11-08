@@ -1,0 +1,43 @@
+{
+  "title": "Medium corporate conference - 500 participants (SAMPLE DATA)",
+  "description": "Two-day corporate summit at a Mumbai hotel venue. Illustrative activity data for testing and demonstration only - not a real event.",
+  "input": {
+    "basic": {"name": "Sample: Corporate Sustainability Summit", "country": "India", "country_code": "IN", "state_city": "Mumbai, Maharashtra",
+              "venue_name": "Sample Convention Hotel", "venue_area_m2": 2500, "start_date": "2027-01-20", "end_date": "2027-01-21",
+              "attendees": 440, "speakers": 25, "organisers_staff": 25, "volunteers": 10, "conference_type": "corporate", "format": "offline"},
+    "settings": {"include_radiative_forcing": true},
+    "transport": [
+      {"id": "s2-f1", "label": "Delegates flying from Delhi", "group": "attendees", "mode": "flight", "origin": "DEL", "destination": "BOM", "passengers": 120, "trip_type": "return", "flight_class": "economy"},
+      {"id": "s2-f2", "label": "Delegates flying from Bengaluru", "group": "attendees", "mode": "flight", "origin": "BLR", "destination": "BOM", "passengers": 80, "trip_type": "return", "flight_class": "economy"},
+      {"id": "s2-f3", "label": "Speakers from Singapore (business)", "group": "speakers", "mode": "flight", "origin": "SIN", "destination": "BOM", "passengers": 5, "trip_type": "return", "flight_class": "business"},
+      {"id": "s2-f4", "label": "Speakers from London", "group": "speakers", "mode": "flight", "origin": "LHR", "destination": "BOM", "passengers": 4, "trip_type": "return", "flight_class": "economy"},
+      {"id": "s2-tr", "label": "Delegates by train from Pune", "group": "attendees", "mode": "train", "origin": "Pune", "destination": "Mumbai", "distance_km": 190, "passengers": 60, "trip_type": "return", "vehicle_type": "national"},
+      {"id": "s2-sub", "label": "Local delegates by suburban rail (daily)", "group": "attendees", "mode": "train", "distance_km": 20, "passengers": 100, "trip_type": "return", "trips": 2, "vehicle_type": "suburban"},
+      {"id": "s2-tx", "label": "Airport taxis", "group": "attendees", "mode": "taxi", "distance_km": 18, "passengers": 209, "occupancy": 1.5, "trip_type": "return", "vehicle_type": "sedan", "fuel_type": "cng"},
+      {"id": "s2-car", "label": "Local delegates driving (daily)", "group": "attendees", "mode": "car", "distance_km": 22, "passengers": 80, "occupancy": 1.2, "trip_type": "return", "trips": 2, "vehicle_type": "suv", "fuel_type": "diesel"}
+    ],
+    "accommodation": [{"id": "s2-h", "label": "Venue hotel room block", "country": "India", "rooms": 230, "nights": 2}],
+    "energy": {"grid_electricity_kwh": 9500, "renewable_certified_kwh": 0, "diesel_generator_litres": 150, "lpg_kg": 120},
+    "food": {"meals": [
+        {"id": "s2-m1", "service": "breakfast", "diet": "vegetarian", "count": 460},
+        {"id": "s2-m2", "service": "lunch", "diet": "vegetarian", "count": 550},
+        {"id": "s2-m3", "service": "lunch", "diet": "non_vegetarian_chicken", "count": 350},
+        {"id": "s2-m4", "service": "lunch", "diet": "non_vegetarian_fish", "count": 100},
+        {"id": "s2-m5", "service": "dinner", "diet": "vegetarian", "count": 250},
+        {"id": "s2-m6", "service": "dinner", "diet": "non_vegetarian_mutton", "count": 200},
+        {"id": "s2-m7", "service": "snack", "diet": "snack_refreshment_coffee", "count": 2000}],
+      "bottled_water": {"bottles": 1500, "volume_litres": 0.5, "bottle_mass_g": 10}},
+    "waste": {"entries": [
+        {"id": "s2-w1", "material": "food", "generated_kg": 260, "landfill_kg": 200, "composting_kg": 60},
+        {"id": "s2-w2", "material": "cardboard", "generated_kg": 80, "recycling_kg": 70},
+        {"id": "s2-w3", "material": "plastic", "generated_kg": 60, "recycling_kg": 20, "landfill_kg": 40},
+        {"id": "s2-w4", "material": "mixed", "generated_kg": 120, "landfill_kg": 120}]},
+    "materials": {"entries": [
+        {"id": "s2-p1", "item": "Printed brochures", "material_key": "materials.paper.virgin", "quantity": 12000, "unit": "pages", "paper_gsm": 130, "sheet_size": "A4", "double_sided": true},
+        {"id": "s2-p2", "item": "PVC banners & standees", "material_key": "materials.plastic.pvc", "quantity": 40, "unit": "kg"},
+        {"id": "s2-p3", "item": "Plastic ID cards", "material_key": "materials.plastic.pvc", "quantity": 500, "unit": "items", "unit_mass_g": 5},
+        {"id": "s2-p4", "item": "Polyester lanyards", "material_key": "materials.plastic.pet", "quantity": 500, "unit": "items", "unit_mass_g": 12},
+        {"id": "s2-p5", "item": "Cotton conference bags", "material_key": "materials.textile.clothing", "quantity": 500, "unit": "items", "unit_mass_g": 90}]},
+    "offsets": {"tonnes_co2e": 0}
+  }
+}

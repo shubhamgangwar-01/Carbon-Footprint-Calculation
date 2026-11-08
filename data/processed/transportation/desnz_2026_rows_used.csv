@@ -1,0 +1,170 @@
+ID,Scope,L1,L2,L3,L4,Col,UOM,GHG,F
+1_100_1003_15_1,Scope 1,Fuels,Gaseous fuels,LPG,,,tonnes,kg CO2e,2939.36095
+1_100_1003_8_1,Scope 1,Fuels,Gaseous fuels,LPG,,,litres,kg CO2e,1.55713
+1_100_1005_1_1,Scope 1,Fuels,Gaseous fuels,Natural gas (100% mineral blend),,,cubic metres,kg CO2e,2.04987
+1_100_1005_7_1,Scope 1,Fuels,Gaseous fuels,Natural gas (100% mineral blend),,,kWh (Net CV),kg CO2e,0.20434
+1_101_1012_8_1,Scope 1,Fuels,Liquid fuels,Diesel (100% mineral diesel),,,litres,kg CO2e,2.66155
+1_101_1018_8_1,Scope 1,Fuels,Liquid fuels,Petrol (100% mineral petrol),,,litres,kg CO2e,2.35372
+7_400_4000_5_1,Scope 2,UK electricity,Electricity generated,Electricity: UK,kWh,,kWh,kg CO2e,0.13096
+9_301_3052_4_6,Scope 2,SECR kWh UK electricity for EVs,Cars (by size),Small car,,Battery Electric Vehicle,km,kWh (net),0.18744
+9_301_3060_4_6,Scope 2,SECR kWh UK electricity for EVs,Cars (by size),Medium car,,Battery Electric Vehicle,km,kWh (net),0.19422
+9_301_3068_4_6,Scope 2,SECR kWh UK electricity for EVs,Cars (by size),Large car,,Battery Electric Vehicle,km,kWh (net),0.21119
+9_301_3076_4_6,Scope 2,SECR kWh UK electricity for EVs,Cars (by size),Average car,,Battery Electric Vehicle,km,kWh (net),0.20358
+17_404_4005_1_1,Scope 3,Water supply,Water supply,Water supply,,,cubic metres,kg CO2e,0.1913
+18_405_4006_1_1,Scope 3,Water treatment,Water treatment,Water treatment,,,cubic metres,kg CO2e,0.17088
+19_501_5056_15_1,Scope 3,Material use,Other,Glass,,Primary material production,tonnes,kg CO2e,1402.76667
+19_501_5060_15_1,Scope 3,Material use,Other,Clothing,,Primary material production,tonnes,kg CO2e,22310.0
+19_501_5061_15_1,Scope 3,Material use,Other,Clothing,,Re-used,tonnes,kg CO2e,152.25
+19_504_5104_15_1,Scope 3,Material use,Metal,Metal: aluminium cans and foil (excl. forming),,Primary material production,tonnes,kg CO2e,9113.58251
+19_504_5116_15_1,Scope 3,Material use,Metal,Metal: steel cans,,Primary material production,tonnes,kg CO2e,2861.58251
+19_505_5120_15_1,Scope 3,Material use,Plastic,Plastics: average plastics,,Primary material production,tonnes,kg CO2e,3170.5068
+19_505_5124_15_1,Scope 3,Material use,Plastic,Plastics: average plastic film,,Primary material production,tonnes,kg CO2e,2914.94602
+19_505_5140_15_1,Scope 3,Material use,Plastic,Plastics: PET (incl. forming),,Primary material production,tonnes,kg CO2e,3861.58251
+19_505_5143_15_1,Scope 3,Material use,Plastic,Plastics: PET (incl. forming),,Closed-loop source,tonnes,kg CO2e,2211.58251
+19_505_5144_15_1,Scope 3,Material use,Plastic,Plastics: PP (incl. forming),,Primary material production,tonnes,kg CO2e,2575.25292
+19_505_5152_15_1,Scope 3,Material use,Plastic,Plastics: PVC (incl. forming),,Primary material production,tonnes,kg CO2e,2942.43735
+19_505_5155_15_1,Scope 3,Material use,Plastic,Plastics: PVC (incl. forming),,Closed-loop source,tonnes,kg CO2e,1845.50387
+19_506_5156_15_1,Scope 3,Material use,Paper,Paper and board: board,,Primary material production,tonnes,kg CO2e,1198.23866
+19_506_5159_15_1,Scope 3,Material use,Paper,Paper and board: board,,Closed-loop source,tonnes,kg CO2e,1096.62766
+19_506_5164_15_1,Scope 3,Material use,Paper,Paper and board: paper,,Primary material production,tonnes,kg CO2e,1343.59114
+19_506_5167_15_1,Scope 3,Material use,Paper,Paper and board: paper,,Closed-loop source,tonnes,kg CO2e,1048.59114
+20_501_5267_15_1,Scope 3,Waste disposal,Other,Glass,,Open-loop,tonnes,kg CO2e,4.65358
+20_501_5268_15_1,Scope 3,Waste disposal,Other,Glass,,Closed-loop,tonnes,kg CO2e,4.65358
+20_501_5269_15_1,Scope 3,Waste disposal,Other,Glass,,Combustion,tonnes,kg CO2e,4.65358
+20_501_5271_15_1,Scope 3,Waste disposal,Other,Glass,,Landfill,tonnes,kg CO2e,9.00687
+20_501_5275_15_1,Scope 3,Waste disposal,Other,Clothing,,Closed-loop,tonnes,kg CO2e,4.65358
+20_501_5276_15_1,Scope 3,Waste disposal,Other,Clothing,,Combustion,tonnes,kg CO2e,4.65358
+20_501_5278_15_1,Scope 3,Waste disposal,Other,Clothing,,Landfill,tonnes,kg CO2e,496.80605
+20_507_5290_15_1,Scope 3,Waste disposal,Refuse,Organic: food and drink waste,,Combustion,tonnes,kg CO2e,4.65358
+20_507_5291_15_1,Scope 3,Waste disposal,Refuse,Organic: food and drink waste,,Composting,tonnes,kg CO2e,9.00687
+20_507_5292_15_1,Scope 3,Waste disposal,Refuse,Organic: food and drink waste,,Landfill,tonnes,kg CO2e,700.33263
+20_507_5293_15_1,Scope 3,Waste disposal,Refuse,Organic: food and drink waste,,Anaerobic digestion,tonnes,kg CO2e,9.00687
+20_507_5310_15_1,Scope 3,Waste disposal,Refuse,Commercial and industrial waste,,Closed-loop,tonnes,kg CO2e,4.65358
+20_507_5311_15_1,Scope 3,Waste disposal,Refuse,Commercial and industrial waste,,Combustion,tonnes,kg CO2e,4.65358
+20_507_5313_15_1,Scope 3,Waste disposal,Refuse,Commercial and industrial waste,,Landfill,tonnes,kg CO2e,520.58023
+20_507_5314_15_1,Scope 3,Waste disposal,Refuse,Commercial and industrial waste,,Anaerobic digestion,tonnes,kg CO2e,9.00687
+20_504_5358_15_1,Scope 3,Waste disposal,Metal,Metal: mixed cans,,Open-loop,tonnes,kg CO2e,4.65358
+20_504_5359_15_1,Scope 3,Waste disposal,Metal,Metal: mixed cans,,Closed-loop,tonnes,kg CO2e,4.65358
+20_504_5360_15_1,Scope 3,Waste disposal,Metal,Metal: mixed cans,,Combustion,tonnes,kg CO2e,4.65358
+20_504_5362_15_1,Scope 3,Waste disposal,Metal,Metal: mixed cans,,Landfill,tonnes,kg CO2e,9.00687
+20_505_5379_15_1,Scope 3,Waste disposal,Plastic,Plastics: average plastics,,Open-loop,tonnes,kg CO2e,4.65358
+20_505_5380_15_1,Scope 3,Waste disposal,Plastic,Plastics: average plastics,,Closed-loop,tonnes,kg CO2e,4.65358
+20_505_5381_15_1,Scope 3,Waste disposal,Plastic,Plastics: average plastics,,Combustion,tonnes,kg CO2e,4.65358
+20_505_5383_15_1,Scope 3,Waste disposal,Plastic,Plastics: average plastics,,Landfill,tonnes,kg CO2e,9.00687
+20_506_5443_15_1,Scope 3,Waste disposal,Paper,Paper and board: board,,Closed-loop,tonnes,kg CO2e,4.65358
+20_506_5444_15_1,Scope 3,Waste disposal,Paper,Paper and board: board,,Combustion,tonnes,kg CO2e,4.65358
+20_506_5445_15_1,Scope 3,Waste disposal,Paper,Paper and board: board,,Composting,tonnes,kg CO2e,9.00687
+20_506_5446_15_1,Scope 3,Waste disposal,Paper,Paper and board: board,,Landfill,tonnes,kg CO2e,1164.51317
+20_506_5457_15_1,Scope 3,Waste disposal,Paper,Paper and board: paper,,Closed-loop,tonnes,kg CO2e,4.65358
+20_506_5458_15_1,Scope 3,Waste disposal,Paper,Paper and board: paper,,Combustion,tonnes,kg CO2e,4.65358
+20_506_5459_15_1,Scope 3,Waste disposal,Paper,Paper and board: paper,,Composting,tonnes,kg CO2e,9.00687
+20_506_5460_15_1,Scope 3,Waste disposal,Paper,Paper and board: paper,,Landfill,tonnes,kg CO2e,1164.51317
+21_316_3160_11_1,Scope 3,Business travel- air,Flights,"Domestic, to/from UK",Average passenger,With RF,passenger.km,kg CO2e,0.22928
+21_316_3161_11_1,Scope 3,Business travel- air,Flights,"Domestic, to/from UK",Average passenger,Without RF,passenger.km,kg CO2e,0.13552
+21_316_3162_11_1,Scope 3,Business travel- air,Flights,"Short-haul, to/from UK",Average passenger,With RF,passenger.km,kg CO2e,0.12786
+21_316_3163_11_1,Scope 3,Business travel- air,Flights,"Short-haul, to/from UK",Average passenger,Without RF,passenger.km,kg CO2e,0.07559
+21_316_3164_11_1,Scope 3,Business travel- air,Flights,"Short-haul, to/from UK",Economy class,With RF,passenger.km,kg CO2e,0.12576
+21_316_3165_11_1,Scope 3,Business travel- air,Flights,"Short-haul, to/from UK",Economy class,Without RF,passenger.km,kg CO2e,0.07435
+21_316_3166_11_1,Scope 3,Business travel- air,Flights,"Short-haul, to/from UK",Business class,With RF,passenger.km,kg CO2e,0.18863
+21_316_3167_11_1,Scope 3,Business travel- air,Flights,"Short-haul, to/from UK",Business class,Without RF,passenger.km,kg CO2e,0.11152
+21_316_3168_11_1,Scope 3,Business travel- air,Flights,"Long-haul, to/from UK",Average passenger,With RF,passenger.km,kg CO2e,0.15282
+21_316_3169_11_1,Scope 3,Business travel- air,Flights,"Long-haul, to/from UK",Average passenger,Without RF,passenger.km,kg CO2e,0.09043
+21_316_3170_11_1,Scope 3,Business travel- air,Flights,"Long-haul, to/from UK",Economy class,With RF,passenger.km,kg CO2e,0.11704
+21_316_3171_11_1,Scope 3,Business travel- air,Flights,"Long-haul, to/from UK",Economy class,Without RF,passenger.km,kg CO2e,0.06926
+21_316_3172_11_1,Scope 3,Business travel- air,Flights,"Long-haul, to/from UK",Premium economy class,With RF,passenger.km,kg CO2e,0.18726
+21_316_3173_11_1,Scope 3,Business travel- air,Flights,"Long-haul, to/from UK",Premium economy class,Without RF,passenger.km,kg CO2e,0.11081
+21_316_3174_11_1,Scope 3,Business travel- air,Flights,"Long-haul, to/from UK",Business class,With RF,passenger.km,kg CO2e,0.3394
+21_316_3175_11_1,Scope 3,Business travel- air,Flights,"Long-haul, to/from UK",Business class,Without RF,passenger.km,kg CO2e,0.20083
+21_316_3176_11_1,Scope 3,Business travel- air,Flights,"Long-haul, to/from UK",First class,With RF,passenger.km,kg CO2e,0.46814
+21_316_3177_11_1,Scope 3,Business travel- air,Flights,"Long-haul, to/from UK",First class,Without RF,passenger.km,kg CO2e,0.27701
+21_316_3178_11_1,Scope 3,Business travel- air,Flights,"International, to/from non-UK",Average passenger,With RF,passenger.km,kg CO2e,0.14253
+21_316_3179_11_1,Scope 3,Business travel- air,Flights,"International, to/from non-UK",Average passenger,Without RF,passenger.km,kg CO2e,0.0842
+21_316_3180_11_1,Scope 3,Business travel- air,Flights,"International, to/from non-UK",Economy class,With RF,passenger.km,kg CO2e,0.10916
+21_316_3181_11_1,Scope 3,Business travel- air,Flights,"International, to/from non-UK",Economy class,Without RF,passenger.km,kg CO2e,0.06449
+21_316_3182_11_1,Scope 3,Business travel- air,Flights,"International, to/from non-UK",Premium economy class,With RF,passenger.km,kg CO2e,0.17465
+21_316_3183_11_1,Scope 3,Business travel- air,Flights,"International, to/from non-UK",Premium economy class,Without RF,passenger.km,kg CO2e,0.10318
+21_316_3184_11_1,Scope 3,Business travel- air,Flights,"International, to/from non-UK",Business class,With RF,passenger.km,kg CO2e,0.31656
+21_316_3185_11_1,Scope 3,Business travel- air,Flights,"International, to/from non-UK",Business class,Without RF,passenger.km,kg CO2e,0.18701
+21_316_3186_11_1,Scope 3,Business travel- air,Flights,"International, to/from non-UK",First class,With RF,passenger.km,kg CO2e,0.43663
+21_316_3187_11_1,Scope 3,Business travel- air,Flights,"International, to/from non-UK",First class,Without RF,passenger.km,kg CO2e,0.25794
+25_301_3045_4_1,Scope 3,Business travel- land,Cars (by size),Small car,,Diesel,km,kg CO2e,0.14327
+25_301_3046_4_1,Scope 3,Business travel- land,Cars (by size),Small car,,Petrol,km,kg CO2e,0.14257
+25_301_3047_4_1,Scope 3,Business travel- land,Cars (by size),Small car,,Hybrid,km,kg CO2e,0.1138
+25_301_3050_4_1,Scope 3,Business travel- land,Cars (by size),Small car,,Unknown,km,kg CO2e,0.14282
+25_301_3051_4_1,Scope 3,Business travel- land,Cars (by size),Small car,,Plug-in Hybrid Electric Vehicle,km,kg CO2e,0.04969
+25_301_3052_4_1,Scope 3,Business travel- land,Cars (by size),Small car,,Battery Electric Vehicle,km,kg CO2e,0.02712
+25_301_3053_4_1,Scope 3,Business travel- land,Cars (by size),Medium car,,Diesel,km,kg CO2e,0.17209
+25_301_3054_4_1,Scope 3,Business travel- land,Cars (by size),Medium car,,Petrol,km,kg CO2e,0.17411
+25_301_3055_4_1,Scope 3,Business travel- land,Cars (by size),Medium car,,Hybrid,km,kg CO2e,0.11678
+25_301_3056_4_1,Scope 3,Business travel- land,Cars (by size),Medium car,,CNG,km,kg CO2e,0.15407
+25_301_3057_4_1,Scope 3,Business travel- land,Cars (by size),Medium car,,LPG,km,kg CO2e,0.17378
+25_301_3058_4_1,Scope 3,Business travel- land,Cars (by size),Medium car,,Unknown,km,kg CO2e,0.17322
+25_301_3059_4_1,Scope 3,Business travel- land,Cars (by size),Medium car,,Plug-in Hybrid Electric Vehicle,km,kg CO2e,0.08109
+25_301_3060_4_1,Scope 3,Business travel- land,Cars (by size),Medium car,,Battery Electric Vehicle,km,kg CO2e,0.02816
+25_301_3061_4_1,Scope 3,Business travel- land,Cars (by size),Large car,,Diesel,km,kg CO2e,0.20905
+25_301_3062_4_1,Scope 3,Business travel- land,Cars (by size),Large car,,Petrol,km,kg CO2e,0.26606
+25_301_3063_4_1,Scope 3,Business travel- land,Cars (by size),Large car,,Hybrid,km,kg CO2e,0.15846
+25_301_3064_4_1,Scope 3,Business travel- land,Cars (by size),Large car,,CNG,km,kg CO2e,0.23463
+25_301_3065_4_1,Scope 3,Business travel- land,Cars (by size),Large car,,LPG,km,kg CO2e,0.26569
+25_301_3066_4_1,Scope 3,Business travel- land,Cars (by size),Large car,,Unknown,km,kg CO2e,0.2277
+25_301_3067_4_1,Scope 3,Business travel- land,Cars (by size),Large car,,Plug-in Hybrid Electric Vehicle,km,kg CO2e,0.10877
+25_301_3068_4_1,Scope 3,Business travel- land,Cars (by size),Large car,,Battery Electric Vehicle,km,kg CO2e,0.03065
+25_301_3069_4_1,Scope 3,Business travel- land,Cars (by size),Average car,,Diesel,km,kg CO2e,0.17265
+25_301_3070_4_1,Scope 3,Business travel- land,Cars (by size),Average car,,Petrol,km,kg CO2e,0.16152
+25_301_3071_4_1,Scope 3,Business travel- land,Cars (by size),Average car,,Hybrid,km,kg CO2e,0.12961
+25_301_3072_4_1,Scope 3,Business travel- land,Cars (by size),Average car,,CNG,km,kg CO2e,0.17314
+25_301_3073_4_1,Scope 3,Business travel- land,Cars (by size),Average car,,LPG,km,kg CO2e,0.19553
+25_301_3074_4_1,Scope 3,Business travel- land,Cars (by size),Average car,,Unknown,km,kg CO2e,0.16591
+25_301_3075_4_1,Scope 3,Business travel- land,Cars (by size),Average car,,Plug-in Hybrid Electric Vehicle,km,kg CO2e,0.09918
+25_301_3076_4_1,Scope 3,Business travel- land,Cars (by size),Average car,,Battery Electric Vehicle,km,kg CO2e,0.02951
+25_302_3077_4_1,Scope 3,Business travel- land,Motorbike,Small,,,km,kg CO2e,0.08319
+25_302_3078_4_1,Scope 3,Business travel- land,Motorbike,Medium,,,km,kg CO2e,0.10108
+25_302_3079_4_1,Scope 3,Business travel- land,Motorbike,Large,,,km,kg CO2e,0.13252
+25_302_3080_4_1,Scope 3,Business travel- land,Motorbike,Average,,,km,kg CO2e,0.11367
+25_313_3141_11_1,Scope 3,Business travel- land,Taxis,Regular taxi,,,passenger.km,kg CO2e,0.14861
+25_313_3141_4_1,Scope 3,Business travel- land,Taxis,Regular taxi,,,km,kg CO2e,0.20806
+25_314_3145_11_1,Scope 3,Business travel- land,Bus,Average local bus,,,passenger.km,kg CO2e,0.10151
+25_314_3146_11_1,Scope 3,Business travel- land,Bus,Coach,,,passenger.km,kg CO2e,0.03948
+25_315_3147_11_1,Scope 3,Business travel- land,Rail,National rail,,,passenger.km,kg CO2e,0.03092
+25_315_3148_11_1,Scope 3,Business travel- land,Rail,International rail,,,passenger.km,kg CO2e,0.01135
+25_315_3149_11_1,Scope 3,Business travel- land,Rail,Light rail and tram,,,passenger.km,kg CO2e,0.02121
+25_315_3150_11_1,Scope 3,Business travel- land,Rail,London Underground,,,passenger.km,kg CO2e,0.01549
+29_600_4000_13_1,Scope 3,Hotel stay,Hotel stay,UK,,,Room per night,kg CO2e,10.4
+29_600_4001_13_1,Scope 3,Hotel stay,Hotel stay,UK (London),,,Room per night,kg CO2e,11.5
+29_600_4003_13_1,Scope 3,Hotel stay,Hotel stay,Australia,,,Room per night,kg CO2e,35.0
+29_600_4005_13_1,Scope 3,Hotel stay,Hotel stay,Belgium,,,Room per night,kg CO2e,12.2
+29_600_4006_13_1,Scope 3,Hotel stay,Hotel stay,Brazil,,,Room per night,kg CO2e,8.7
+29_600_4007_13_1,Scope 3,Hotel stay,Hotel stay,Canada,,,Room per night,kg CO2e,7.4
+29_600_4008_13_1,Scope 3,Hotel stay,Hotel stay,Chile,,,Room per night,kg CO2e,27.6
+29_600_4009_13_1,Scope 3,Hotel stay,Hotel stay,China,,,Room per night,kg CO2e,53.5
+29_600_4010_13_1,Scope 3,Hotel stay,Hotel stay,Colombia,,,Room per night,kg CO2e,14.7
+29_600_4011_13_1,Scope 3,Hotel stay,Hotel stay,Costa Rica,,,Room per night,kg CO2e,4.7
+29_600_4013_13_1,Scope 3,Hotel stay,Hotel stay,Egypt,,,Room per night,kg CO2e,44.2
+29_600_4016_13_1,Scope 3,Hotel stay,Hotel stay,France,,,Room per night,kg CO2e,6.7
+29_600_4017_13_1,Scope 3,Hotel stay,Hotel stay,Germany,,,Room per night,kg CO2e,13.2
+29_600_4019_13_1,Scope 3,Hotel stay,Hotel stay,"Hong Kong, China",,,Room per night,kg CO2e,51.5
+29_600_4020_13_1,Scope 3,Hotel stay,Hotel stay,India,,,Room per night,kg CO2e,58.9
+29_600_4021_13_1,Scope 3,Hotel stay,Hotel stay,Indonesia,,,Room per night,kg CO2e,62.7
+29_600_4024_13_1,Scope 3,Hotel stay,Hotel stay,Italy,,,Room per night,kg CO2e,14.3
+29_600_4025_13_1,Scope 3,Hotel stay,Hotel stay,Japan,,,Room per night,kg CO2e,39.0
+29_600_4026_13_1,Scope 3,Hotel stay,Hotel stay,Jordan,,,Room per night,kg CO2e,68.9
+29_600_4028_13_1,Scope 3,Hotel stay,Hotel stay,Korea,,,Room per night,kg CO2e,55.8
+29_600_4030_13_1,Scope 3,Hotel stay,Hotel stay,Malaysia,,,Room per night,kg CO2e,61.5
+29_600_4031_13_1,Scope 3,Hotel stay,Hotel stay,Maldives,,,Room per night,kg CO2e,152.2
+29_600_4032_13_1,Scope 3,Hotel stay,Hotel stay,Mexico,,,Room per night,kg CO2e,19.3
+29_600_4033_13_1,Scope 3,Hotel stay,Hotel stay,Netherlands,,,Room per night,kg CO2e,14.8
+29_600_4035_13_1,Scope 3,Hotel stay,Hotel stay,Oman,,,Room per night,kg CO2e,90.3
+29_600_4038_13_1,Scope 3,Hotel stay,Hotel stay,Philippines,,,Room per night,kg CO2e,54.3
+29_600_4040_13_1,Scope 3,Hotel stay,Hotel stay,Portugal,,,Room per night,kg CO2e,19.0
+29_600_4041_13_1,Scope 3,Hotel stay,Hotel stay,Qatar,,,Room per night,kg CO2e,86.2
+29_600_4043_13_1,Scope 3,Hotel stay,Hotel stay,Russian Federation,,,Room per night,kg CO2e,24.2
+29_600_4044_13_1,Scope 3,Hotel stay,Hotel stay,Saudi Arabia,,,Room per night,kg CO2e,106.4
+29_600_4045_13_1,Scope 3,Hotel stay,Hotel stay,Singapore,,,Room per night,kg CO2e,24.5
+29_600_4046_13_1,Scope 3,Hotel stay,Hotel stay,South Africa,,,Room per night,kg CO2e,51.4
+29_600_4047_13_1,Scope 3,Hotel stay,Hotel stay,Spain,,,Room per night,kg CO2e,7.0
+29_600_4048_13_1,Scope 3,Hotel stay,Hotel stay,Switzerland,,,Room per night,kg CO2e,6.6
+29_600_4050_13_1,Scope 3,Hotel stay,Hotel stay,Thailand,,,Room per night,kg CO2e,43.4
+29_600_4051_13_1,Scope 3,Hotel stay,Hotel stay,Turkey,,,Room per night,kg CO2e,32.1
+29_600_4052_13_1,Scope 3,Hotel stay,Hotel stay,United Arab Emirates,,,Room per night,kg CO2e,63.8
+29_600_4053_13_1,Scope 3,Hotel stay,Hotel stay,United States,,,Room per night,kg CO2e,16.1
+29_600_4054_13_1,Scope 3,Hotel stay,Hotel stay,Vietnam,,,Room per night,kg CO2e,38.5

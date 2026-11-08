@@ -1,0 +1,56 @@
+{
+  "title": "Large international conference - 2,000 participants (SAMPLE DATA)",
+  "description": "Four-day international congress in New Delhi with hybrid streaming. Illustrative activity data for testing and demonstration only - not a real event.",
+  "input": {
+    "basic": {"name": "Sample: International Congress on Sustainable Development", "country": "India", "country_code": "IN", "state_city": "New Delhi, Delhi",
+              "venue_name": "Sample International Convention Centre", "venue_area_m2": 20000, "start_date": "2027-02-15", "end_date": "2027-02-18",
+              "attendees": 1800, "speakers": 120, "organisers_staff": 50, "volunteers": 30, "virtual_attendees": 1500, "conference_type": "academic", "format": "hybrid"},
+    "settings": {"include_radiative_forcing": true},
+    "transport": [
+      {"id": "s3-f1", "label": "Delegates from London", "group": "attendees", "mode": "flight", "origin": "LHR", "destination": "DEL", "passengers": 150, "trip_type": "return", "flight_class": "economy"},
+      {"id": "s3-f2", "label": "Delegates from New York", "group": "attendees", "mode": "flight", "origin": "JFK", "destination": "DEL", "passengers": 120, "trip_type": "return", "flight_class": "economy"},
+      {"id": "s3-f3", "label": "Delegates from Singapore", "group": "attendees", "mode": "flight", "origin": "SIN", "destination": "DEL", "passengers": 100, "trip_type": "return", "flight_class": "economy"},
+      {"id": "s3-f4", "label": "Delegates from Dubai", "group": "attendees", "mode": "flight", "origin": "DXB", "destination": "DEL", "passengers": 80, "trip_type": "return", "flight_class": "economy"},
+      {"id": "s3-f5", "label": "Delegates from Tokyo", "group": "attendees", "mode": "flight", "origin": "NRT", "destination": "DEL", "passengers": 60, "trip_type": "return", "flight_class": "economy"},
+      {"id": "s3-f6", "label": "International speakers (business class)", "group": "speakers", "mode": "flight", "origin": "FRA", "destination": "DEL", "passengers": 40, "trip_type": "return", "flight_class": "business"},
+      {"id": "s3-f7", "label": "Domestic delegates from Mumbai", "group": "attendees", "mode": "flight", "origin": "BOM", "destination": "DEL", "passengers": 300, "trip_type": "return", "flight_class": "economy"},
+      {"id": "s3-f8", "label": "Domestic delegates from Bengaluru", "group": "attendees", "mode": "flight", "origin": "BLR", "destination": "DEL", "passengers": 250, "trip_type": "return", "flight_class": "economy"},
+      {"id": "s3-f9", "label": "Domestic delegates from Kolkata", "group": "attendees", "mode": "flight", "origin": "CCU", "destination": "DEL", "passengers": 150, "trip_type": "return", "flight_class": "economy"},
+      {"id": "s3-tr", "label": "Delegates by train (Jaipur, Lucknow, Chandigarh)", "group": "attendees", "mode": "train", "distance_km": 400, "passengers": 300, "trip_type": "return", "vehicle_type": "national"},
+      {"id": "s3-metro", "label": "Delhi Metro hotel-venue commute (daily)", "group": "attendees", "mode": "train", "distance_km": 12, "passengers": 800, "trip_type": "return", "trips": 4, "vehicle_type": "metro"},
+      {"id": "s3-coach", "label": "Shuttle coaches hotel-venue (daily)", "group": "attendees", "mode": "bus", "distance_km": 15, "passengers": 700, "trip_type": "return", "trips": 4, "vehicle_type": "coach"},
+      {"id": "s3-tx", "label": "Airport transfers by taxi", "group": "attendees", "mode": "taxi", "distance_km": 20, "passengers": 1250, "occupancy": 2, "trip_type": "return", "vehicle_type": "sedan", "fuel_type": "cng"},
+      {"id": "s3-ev", "label": "VIP electric cars (daily)", "group": "speakers", "mode": "electric_vehicle", "distance_km": 20, "passengers": 40, "occupancy": 2, "trip_type": "return", "trips": 4, "vehicle_type": "sedan"}
+    ],
+    "accommodation": [
+      {"id": "s3-h1", "label": "Partner hotels (India benchmark)", "country": "India", "rooms": 1100, "nights": 4},
+      {"id": "s3-h2", "label": "Certified green hotel (hotel-supplied factor)", "country": "India", "rooms": 100, "nights": 4, "hotel_factor_kg_per_room_night": 25.0, "hotel_factor_source": "SAMPLE value - hotel sustainability report"}
+    ],
+    "energy": {"grid_electricity_kwh": 64000, "renewable_certified_kwh": 19200, "onsite_renewable_kwh": 6000, "diesel_generator_litres": 1500, "lpg_kg": 900},
+    "food": {"meals": [
+        {"id": "s3-m1", "service": "breakfast", "diet": "vegetarian", "count": 4400},
+        {"id": "s3-m2", "service": "lunch", "diet": "vegetarian", "count": 4000},
+        {"id": "s3-m3", "service": "lunch", "diet": "vegan", "count": 800},
+        {"id": "s3-m4", "service": "lunch", "diet": "non_vegetarian_chicken", "count": 3200},
+        {"id": "s3-m5", "service": "dinner", "diet": "vegetarian", "count": 1500},
+        {"id": "s3-m6", "service": "dinner", "diet": "non_vegetarian_chicken", "count": 1200},
+        {"id": "s3-m7", "service": "dinner", "diet": "non_vegetarian_fish", "count": 300},
+        {"id": "s3-m8", "service": "snack", "diet": "snack_refreshment", "count": 16000}]},
+    "waste": {"entries": [
+        {"id": "s3-w1", "material": "food", "generated_kg": 2400, "composting_kg": 1200, "anaerobic_digestion_kg": 400, "landfill_kg": 800},
+        {"id": "s3-w2", "material": "paper", "generated_kg": 500, "recycling_kg": 400, "landfill_kg": 100},
+        {"id": "s3-w3", "material": "cardboard", "generated_kg": 600, "recycling_kg": 550, "landfill_kg": 50},
+        {"id": "s3-w4", "material": "plastic", "generated_kg": 450, "recycling_kg": 250, "incineration_kg": 50, "landfill_kg": 150},
+        {"id": "s3-w5", "material": "glass", "generated_kg": 120, "recycling_kg": 120},
+        {"id": "s3-w6", "material": "metal", "generated_kg": 60, "recycling_kg": 60},
+        {"id": "s3-w7", "material": "mixed", "generated_kg": 900}]},
+    "materials": {"entries": [
+        {"id": "s3-p1", "item": "Printed abstract books", "material_key": "materials.paper.recycled", "quantity": 120000, "unit": "pages", "paper_gsm": 70, "sheet_size": "A4", "double_sided": true},
+        {"id": "s3-p2", "item": "Fabric banners (reusable)", "material_key": "materials.textile.clothing", "quantity": 60, "unit": "kg", "reusable": true, "expected_uses": 5},
+        {"id": "s3-p3", "item": "PVC banners", "material_key": "materials.plastic.pvc", "quantity": 150, "unit": "kg"},
+        {"id": "s3-p4", "item": "Badges (paper board)", "material_key": "materials.board.recycled", "quantity": 2000, "unit": "items", "unit_mass_g": 8},
+        {"id": "s3-p5", "item": "Lanyards", "material_key": "materials.plastic.pet", "quantity": 2000, "unit": "items", "unit_mass_g": 12},
+        {"id": "s3-p6", "item": "Conference kits / bags", "material_key": "materials.textile.clothing", "quantity": 2000, "unit": "items", "unit_mass_g": 90}]},
+    "offsets": {"tonnes_co2e": 100, "standard": "SAMPLE - Gold Standard", "retirement_reference": "SAMPLE-0000"}
+  }
+}

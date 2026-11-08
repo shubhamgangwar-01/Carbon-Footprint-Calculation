@@ -1,0 +1,69 @@
+{
+  "factor_set_version": "FS-2026.1",
+  "generated_at": "2026-11-08",
+  "dataset_versions": {
+    "DESNZ-2026-v1.2": {
+      "source_id": "DESNZ_2026_FLAT",
+      "source_name": "UK Government GHG Conversion Factors for Company Reporting 2026 - flat file (revised, v1.2)",
+      "reporting_year": "2026",
+      "factor_count": 169,
+      "active": true
+    },
+    "DESNZ-2025": {
+      "source_id": "DESNZ_2025_FLAT",
+      "source_name": "UK Government GHG Conversion Factors 2025 - flat file (retained for version history)",
+      "reporting_year": "2025",
+      "factor_count": 159,
+      "active": false
+    },
+    "CEA-v22.0": {
+      "source_id": "CEA_BASELINE_V22_GUIDE",
+      "source_name": "CEA CO2 Baseline Database User Guide, Version 22.0",
+      "reporting_year": "FY 2025-26",
+      "factor_count": 11,
+      "active": true
+    },
+    "IndiaGHGP-Road-v1.0-2015": {
+      "source_id": "INDIAGHGP_ROAD_2015",
+      "source_name": "India Specific Road Transport Emission Factors, Version 1.0 (2015)",
+      "reporting_year": "2015",
+      "factor_count": 17,
+      "active": true
+    },
+    "IndiaGHGP-Rail-v1.0-2015": {
+      "source_id": "INDIAGHGP_RAIL_2015",
+      "source_name": "India Specific Rail Transport Emission Factors for Passenger Travel and Material Transport, Version 1.0 (2015)",
+      "reporting_year": "FY 2014-15",
+      "factor_count": 2,
+      "active": true
+    },
+    "CEA-v22.0+DESNZ-2026": {
+      "source_id": "CEA_BASELINE_V22_GUIDE",
+      "source_name": "CEA CO2 Baseline Database User Guide, Version 22.0",
+      "reporting_year": "FY 2025-26 grid; 2026 vehicle data",
+      "factor_count": 4,
+      "active": true
+    },
+    "OWID-Poore2018": {
+      "source_id": "OWID_POORE_GHG_PER_KG",
+      "source_name": "Greenhouse gas emissions per kilogram of food product (Poore & Nemecek 2018) - Our World in Data grapher export",
+      "reporting_year": "2010 (published 2018)",
+      "factor_count": 43,
+      "active": true
+    },
+    "Premalatha2024": {
+      "source_id": "LIT_PREMALATHA_2024",
+      "source_name": "Premalatha V. et al. (2024) 'Insights of carbon footprint of tea through life cycle approach', Plant Science Today 11(sp4)",
+      "reporting_year": "2024",
+      "factor_count": 1,
+      "active": true
+    },
+    "MealModel-2026.1": {
+      "source_id": "MEAL_MODEL",
+      "source_name": "Modelled meal archetype: NIN 'My Plate for the Day' (2024) x Poore & Nemecek (2018)",
+      "reporting_year": "2026 model",
+      "factor_count": 10,
+      "active": true
+    }
+  }
+}
