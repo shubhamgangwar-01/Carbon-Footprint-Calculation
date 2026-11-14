@@ -1,1 +1,16 @@
--r backend/requirements.txt
+# Space-only requirements: unpinned so pip can resolve them alongside the Gradio runtime
+fastapi
+uvicorn[standard]
+pydantic>=2
+SQLAlchemy>=2
+alembic
+psycopg[binary]>=3
+pandas
+openpyxl
+xlrd
+reportlab
+matplotlib
+pypdf
+pdfplumber
+python-multipart
+httpx
