@@ -1,0 +1,13 @@
+# Runtime dependencies for the Vercel serverless backend (no test/PDF-scraping tools)
+fastapi
+pydantic>=2
+SQLAlchemy>=2
+alembic
+psycopg[binary]>=3
+pandas
+openpyxl
+xlrd
+matplotlib
+reportlab
+python-multipart
+httpx

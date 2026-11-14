@@ -1,0 +1,7 @@
+frontend
+data/raw
+docs
+scripts
+.venv
+backend/tests
+backend/generated_reports
