@@ -1,3 +1,13 @@
+---
+title: Conference Carbon API
+emoji: 🌍
+colorFrom: green
+colorTo: blue
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # Conference Carbon Footprint Calculator
 
 A full-stack web application that calculates, analyses and helps reduce the greenhouse-gas emissions of a conference.
